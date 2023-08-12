@@ -13,14 +13,14 @@ if [ $# -ne 1 ]; then
 fi
 
 ticker="$1"
-output_file="data.txt"
+output_file="/data/data.txt" # should feed this into curler
 
 functions=("INCOME_STATEMENT" "BALANCE_SHEET" "CASH_FLOW" "OVERVIEW")
 
-# Loop through the functions and call better_curler.sh with a 5-second delay
+# Loop through the functions and call curler.sh with a 5-second delay
 for func in "${functions[@]}"; do
-    echo "Calling better_curler.sh with function: $func for ticker: $ticker"
-    ./better_curler.sh "$func" "$ticker" # "$output_file"
+    echo "Calling curler.sh with function: $func for ticker: $ticker"
+    ./curler.sh "$func" "$ticker" # "$output_file"
                                         # need to modify better curler to save it to an output file
     sleep 5
 done
