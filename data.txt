@@ -1,0 +1,5 @@
+https://www.alphavantage.co/query?apikey=VE30NSQ6TWWTQMM8&function=INCOME_STATEMENT&symbol=EWZ
+{}https://www.alphavantage.co/query?apikey=VE30NSQ6TWWTQMM8&function=BALANCE_SHEET&symbol=EWZ
+{}https://www.alphavantage.co/query?apikey=VE30NSQ6TWWTQMM8&function=CASH_FLOW&symbol=EWZ
+{}https://www.alphavantage.co/query?apikey=VE30NSQ6TWWTQMM8&function=OVERVIEW&symbol=EWZ
+{}
